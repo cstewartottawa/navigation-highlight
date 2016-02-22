@@ -1,14 +1,48 @@
 html {
 	box-sizing: border-box;
 }
+header{
+  background-color: #ffe500;
+  padding: .3rem;
+}
 h1 {
   font-family: Sigmar One;
   color: #b20953;
+  text-align: center;
+  font-size: 3.5em;
 }
 h2 {
   font-family: Sigmar One;
   color: #b20953;
+  font-size: 2em;
 }
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+  padding: 1em;
+}
+
+nav a{
+  background-color: #b2a212;
+  padding: .5rem;
+  border-radius: .3rem;
+}
+
+
 
 *, *::before, *::after {
 	box-sizing: inherit;
