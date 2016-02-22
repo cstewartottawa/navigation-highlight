@@ -1,0 +1,15 @@
+html {
+	box-sizing: border-box;
+}
+h1 {
+  font-family: Sigmar One;
+  color: #b20953;
+}
+h2 {
+  font-family: Sigmar One;
+  color: #b20953;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
